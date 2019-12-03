@@ -1,0 +1,53 @@
+body{
+    background-color: lightgray;
+    
+}
+header{
+    background-color: white;
+}
+#name{
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    color: darkgray;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover, a:focus, a:active{
+    color: #4aaaa5;
+    background-color: white;
+}
+h1{
+    color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+hr{
+   
+    color: darkgray;
+}
+img{
+    float: left;
+}
+.footer{
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #4aaaa5;
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 9px;
+}
+@media screen and (max-width:320px){
+    .wrapper{
+        width : 320px;
+    }
+  
+}
