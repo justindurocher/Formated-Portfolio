@@ -1,6 +1,11 @@
 .container{
     background-color: white;
 }
+section{
+    background-color: lightgray;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
 .header-1{
     background-color: #4aaaa5;
     color: white;
@@ -13,8 +18,16 @@
     color:lightgray;
     text-align: right;
     text-decoration: none;
-    padding-top: 5px;
+    padding-top: 8px;
     font-size: 20px;
+}
+a{
+    color: darkgray;
+    text-decoration: none;
+}
+a:hover,a:focus,a:active{
+    color: #4aaaa5;
+    text-decoration: none;
 }
 .portfolio{
     color: #4aaaa5;
@@ -71,8 +84,31 @@
     background-color: darkgray;
     text-align: center;
     color: white;
-    margin-top: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 9px;
+}
+@media screen and (max-width:760px){
+    .header-1{
+        width: 50%;
+        font-size: 20px;
+        padding-top: 18px;
+    }
+    .header-2{
+        width: 50%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:320px){
+    .header-1{
+        width: 50%;
+        font-size: 10px;
+    }
+    .header-2{
+        width: 50%;
+        font-size: 5px;
+    }
+    h1{
+        font-size: 15px;
+    }
 }

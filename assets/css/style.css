@@ -5,6 +5,8 @@ section{
     background-color: lightgray;
     padding-top: 36px;
     padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .header-1{
     background-color: #4aaaa5;
@@ -18,9 +20,8 @@ section{
     color:lightgray;
     text-align: right;
     text-decoration: none;
-    padding-top: 5px;
+    padding-top: 8px;
     font-size: 20px;
-    padding-top: 10px;
 }
 a{
     color: darkgray;
@@ -58,10 +59,14 @@ img{
     .header-1{
         width: 50%;
         font-size: 20px;
+        padding-top: 18px;
     }
     .header-2{
         width: 50%;
         font-size: 20px;
+    }
+    .bio{
+        margin: 5px;
     }
     h1{
         font-size: 20px;
@@ -79,11 +84,11 @@ img{
 @media screen and (max-width:320px){
     .header-1{
         width: 50%;
-        font-size: 15px;
+        font-size: 10px;
     }
     .header-2{
         width: 50%;
-        font-size: 15px;
+        font-size: 10px;
     }
     h1{
         font-size: 15px;
